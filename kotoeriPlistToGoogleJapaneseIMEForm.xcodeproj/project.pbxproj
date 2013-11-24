@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AF9FF3B18405530008D9D9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9FF3A18405530008D9D9D /* Cocoa.framework */; };
+		6AF9FF4518405530008D9D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AF9FF4318405530008D9D9D /* InfoPlist.strings */; };
+		6AF9FF4718405530008D9D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9FF4618405530008D9D9D /* main.m */; };
+		6AF9FF4B18405530008D9D9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6AF9FF4918405530008D9D9D /* Credits.rtf */; };
+		6AF9FF4E18405530008D9D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9FF4D18405530008D9D9D /* AppDelegate.m */; };
+		6AF9FF5118405530008D9D9D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF9FF4F18405530008D9D9D /* MainMenu.xib */; };
+		6AF9FF5318405530008D9D9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF9FF5218405530008D9D9D /* Images.xcassets */; };
+		6AF9FF5A18405530008D9D9D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9FF5918405530008D9D9D /* XCTest.framework */; };
+		6AF9FF5B18405530008D9D9D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF9FF3A18405530008D9D9D /* Cocoa.framework */; };
+		6AF9FF6318405530008D9D9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AF9FF6118405530008D9D9D /* InfoPlist.strings */; };
+		6AF9FF6518405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF9FF6418405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AF9FF5C18405530008D9D9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AF9FF2F18405530008D9D9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AF9FF3618405530008D9D9D;
+			remoteInfo = kotoeriPlistToGoogleJapaneseIMEForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AF9FF3718405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kotoeriPlistToGoogleJapaneseIMEForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9FF3A18405530008D9D9D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6AF9FF3D18405530008D9D9D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6AF9FF3E18405530008D9D9D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6AF9FF3F18405530008D9D9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AF9FF4218405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kotoeriPlistToGoogleJapaneseIMEForm-Info.plist"; sourceTree = "<group>"; };
+		6AF9FF4418405530008D9D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AF9FF4618405530008D9D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AF9FF4818405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch"; sourceTree = "<group>"; };
+		6AF9FF4A18405530008D9D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6AF9FF4C18405530008D9D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AF9FF4D18405530008D9D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AF9FF5018405530008D9D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6AF9FF5218405530008D9D9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AF9FF5818405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kotoeriPlistToGoogleJapaneseIMEFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF9FF5918405530008D9D9D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AF9FF6018405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kotoeriPlistToGoogleJapaneseIMEFormTests-Info.plist"; sourceTree = "<group>"; };
+		6AF9FF6218405530008D9D9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AF9FF6418405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kotoeriPlistToGoogleJapaneseIMEFormTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AF9FF3418405530008D9D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF3B18405530008D9D9D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF9FF5518405530008D9D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF5B18405530008D9D9D /* Cocoa.framework in Frameworks */,
+				6AF9FF5A18405530008D9D9D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AF9FF2E18405530008D9D9D = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF4018405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm */,
+				6AF9FF5E18405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests */,
+				6AF9FF3918405530008D9D9D /* Frameworks */,
+				6AF9FF3818405530008D9D9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AF9FF3818405530008D9D9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF3718405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm.app */,
+				6AF9FF5818405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF9FF3918405530008D9D9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF3A18405530008D9D9D /* Cocoa.framework */,
+				6AF9FF5918405530008D9D9D /* XCTest.framework */,
+				6AF9FF3C18405530008D9D9D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AF9FF3C18405530008D9D9D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF3D18405530008D9D9D /* AppKit.framework */,
+				6AF9FF3E18405530008D9D9D /* CoreData.framework */,
+				6AF9FF3F18405530008D9D9D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6AF9FF4018405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF4C18405530008D9D9D /* AppDelegate.h */,
+				6AF9FF4D18405530008D9D9D /* AppDelegate.m */,
+				6AF9FF4F18405530008D9D9D /* MainMenu.xib */,
+				6AF9FF5218405530008D9D9D /* Images.xcassets */,
+				6AF9FF4118405530008D9D9D /* Supporting Files */,
+			);
+			path = kotoeriPlistToGoogleJapaneseIMEForm;
+			sourceTree = "<group>";
+		};
+		6AF9FF4118405530008D9D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF4218405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm-Info.plist */,
+				6AF9FF4318405530008D9D9D /* InfoPlist.strings */,
+				6AF9FF4618405530008D9D9D /* main.m */,
+				6AF9FF4818405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch */,
+				6AF9FF4918405530008D9D9D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AF9FF5E18405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF6418405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.m */,
+				6AF9FF5F18405530008D9D9D /* Supporting Files */,
+			);
+			path = kotoeriPlistToGoogleJapaneseIMEFormTests;
+			sourceTree = "<group>";
+		};
+		6AF9FF5F18405530008D9D9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF9FF6018405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests-Info.plist */,
+				6AF9FF6118405530008D9D9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AF9FF3618405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9FF6818405530008D9D9D /* Build configuration list for PBXNativeTarget "kotoeriPlistToGoogleJapaneseIMEForm" */;
+			buildPhases = (
+				6AF9FF3318405530008D9D9D /* Sources */,
+				6AF9FF3418405530008D9D9D /* Frameworks */,
+				6AF9FF3518405530008D9D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kotoeriPlistToGoogleJapaneseIMEForm;
+			productName = kotoeriPlistToGoogleJapaneseIMEForm;
+			productReference = 6AF9FF3718405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AF9FF5718405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AF9FF6B18405530008D9D9D /* Build configuration list for PBXNativeTarget "kotoeriPlistToGoogleJapaneseIMEFormTests" */;
+			buildPhases = (
+				6AF9FF5418405530008D9D9D /* Sources */,
+				6AF9FF5518405530008D9D9D /* Frameworks */,
+				6AF9FF5618405530008D9D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF9FF5D18405530008D9D9D /* PBXTargetDependency */,
+			);
+			name = kotoeriPlistToGoogleJapaneseIMEFormTests;
+			productName = kotoeriPlistToGoogleJapaneseIMEFormTests;
+			productReference = 6AF9FF5818405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AF9FF2F18405530008D9D9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = heidlr.com;
+				TargetAttributes = {
+					6AF9FF5718405530008D9D9D = {
+						TestTargetID = 6AF9FF3618405530008D9D9D;
+					};
+				};
+			};
+			buildConfigurationList = 6AF9FF3218405530008D9D9D /* Build configuration list for PBXProject "kotoeriPlistToGoogleJapaneseIMEForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AF9FF2E18405530008D9D9D;
+			productRefGroup = 6AF9FF3818405530008D9D9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AF9FF3618405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm */,
+				6AF9FF5718405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AF9FF3518405530008D9D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF4518405530008D9D9D /* InfoPlist.strings in Resources */,
+				6AF9FF5318405530008D9D9D /* Images.xcassets in Resources */,
+				6AF9FF4B18405530008D9D9D /* Credits.rtf in Resources */,
+				6AF9FF5118405530008D9D9D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF9FF5618405530008D9D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF6318405530008D9D9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AF9FF3318405530008D9D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF4E18405530008D9D9D /* AppDelegate.m in Sources */,
+				6AF9FF4718405530008D9D9D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF9FF5418405530008D9D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF9FF6518405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEFormTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF9FF5D18405530008D9D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AF9FF3618405530008D9D9D /* kotoeriPlistToGoogleJapaneseIMEForm */;
+			targetProxy = 6AF9FF5C18405530008D9D9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AF9FF4318405530008D9D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF9FF4418405530008D9D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AF9FF4918405530008D9D9D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF9FF4A18405530008D9D9D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6AF9FF4F18405530008D9D9D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF9FF5018405530008D9D9D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6AF9FF6118405530008D9D9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AF9FF6218405530008D9D9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AF9FF6618405530008D9D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AF9FF6718405530008D9D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AF9FF6918405530008D9D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch";
+				INFOPLIST_FILE = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AF9FF6A18405530008D9D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch";
+				INFOPLIST_FILE = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AF9FF6C18405530008D9D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kotoeriPlistToGoogleJapaneseIMEForm.app/Contents/MacOS/kotoeriPlistToGoogleJapaneseIMEForm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kotoeriPlistToGoogleJapaneseIMEFormTests/kotoeriPlistToGoogleJapaneseIMEFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AF9FF6D18405530008D9D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kotoeriPlistToGoogleJapaneseIMEForm.app/Contents/MacOS/kotoeriPlistToGoogleJapaneseIMEForm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kotoeriPlistToGoogleJapaneseIMEForm/kotoeriPlistToGoogleJapaneseIMEForm-Prefix.pch";
+				INFOPLIST_FILE = "kotoeriPlistToGoogleJapaneseIMEFormTests/kotoeriPlistToGoogleJapaneseIMEFormTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AF9FF3218405530008D9D9D /* Build configuration list for PBXProject "kotoeriPlistToGoogleJapaneseIMEForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9FF6618405530008D9D9D /* Debug */,
+				6AF9FF6718405530008D9D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AF9FF6818405530008D9D9D /* Build configuration list for PBXNativeTarget "kotoeriPlistToGoogleJapaneseIMEForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9FF6918405530008D9D9D /* Debug */,
+				6AF9FF6A18405530008D9D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6AF9FF6B18405530008D9D9D /* Build configuration list for PBXNativeTarget "kotoeriPlistToGoogleJapaneseIMEFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9FF6C18405530008D9D9D /* Debug */,
+				6AF9FF6D18405530008D9D9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AF9FF2F18405530008D9D9D /* Project object */;
+}
